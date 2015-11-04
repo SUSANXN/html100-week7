@@ -1,101 +1,119 @@
 *{box-sizing: border-box}
 
-header { max-width: 25%;
-  float: left; }
+header { float:none;
+         padding-top:2rem;
+         padding-right:auto;
+         padding-bottom:1rem;
+         padding-left:auto;
+         height:100px;
+         width:auto; 
+         clear: none; 
+         background-color:white;
+}
 
-h1 {font-size: 3rem;
-    color: mediumpurple;
+h1 {color:mediumpurple;
+    font-size: 3rem;
+    font-family: "arial", sans-serif;
     text-align: center;
-    font-family:"arial", sans-serif;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-nav li {
-    display: inline;
-    list-style:none; 
-    padding-top: 15px; 
-    padding-right: 20px; 
-    padding-left: 20px; 
-    padding-bottom: 1rem;
-    margin-bottom: -1rem;
-    margin-top:1rem;
-    margin-right:auto;
-    margin-left: auto;
-    border-bottom: 1rem;  
-    text-align: center; 
-    background-color: mediumpurple;
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    clear: none; 
 }
 
-a: link {
-    text-decoration: none;
-    padding-left: 2rem; 
-    text-align: center; 
-    color:white;
+nav { float:none;
+      padding-top: 1rem; 
+      padding-right: auto; 
+      padding-bottom:2rem; 
+      padding-left:auto;
+      margin-top:auto;
+      margin-right:3px;
+      margin-bottom:auto;
+      margin-left:5px; 
+      color:white; 
+      background-color:mediumpurple;
 }
-ul {
-    list-style-type: none;
-    margin: 2rem;
-    padding: 1rem;
-    text-decoration: none;
-}
-li {float: left; 
-        padding-right: 25px;
-        border: 10rem; 
-        border-style:grove;
-        margin: 2rem;
-        font-family: "verdana", sans-serif;
-        background-color:mediumpurple;
-        list-style-type: none;
-        text-decoration: none;
-        display: inline;
-        }
 
-section { float: left; 
-          width: 15%;
-          height: 450px;
-          background: #DDBBFF; 
-          clear: both;}
+nav li {float:left; list-style-type: none; 
+        padding-left: 5rem;
+        padding-right: 3rem;
+        padding-bottom: auto;
+        padding-top: auto; 
+        text-align: center;
+        font-size: 15pt;
+}     
+   
+nav a {color:white;
+       font-family: "arial",sans-serif;
+       }
+      
 
-section p {
-          padding-top: 1rem;
-          padding-bottom: 2em;
-          margin-right: 2rem; 
-          border-top: 3rem; 
-          color: white;
-          text-align: center; 
-          font-family: "arial", sans-serif
+
+section { 
+         float:none;
+         padding-right:2rem;
+         padding-top:2rem;
+         padding-left:3rem;
+         margin-top:3em;
+         width:15%;
+         height: 500px;
+         background-color: #EFBEFF;        
 }
-article { float: none;
-          padding:1rem; 
-          margin-bottom: 3rem;
+
+section p {font-family: "arial", sans-serif; 
+           color: white; 
+           font-size: 18px; 
+           padding-top: 1rem;
+           padding-right: 1rem; 
+           padding-bottom: 1rem; 
+           padding-left: 1rem;
+           border-top:2rem; 
+           border-right:2rem; 
+           border-bottom:2rem; 
+           border-left:2rem;
+           margin-top:1rem;
+           margin-bottom:1rem; 
+           clear: none; 
+}
+  
+article {
+          padding:auto; 
+          margin:auto;
           height: 450px;
           font-family: "arial", sans-serif;
           background:#F2F2F2;
           color:gray;
-          align-items: center;
+          align-items: center;  
 }
-
-img {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+ 
 article p {
+  float: right;   
   border-height: 3rem; 
   margin-left: 5rem;
   margin-right: 5rem; 
   margin-top;5rem;
   text-align:center;
+  font-family: "arial",sans-serif;
+  background-color:#F2F2F2;
+  color:gray;
   font-size: 13px
 }
-
-footer a {float:left;
-  display:block;
-  margin-left: auto;
+    
+img {
+    float:inherit; 
+    clear: none; 
+    display:block;  
+    border:auto;
+    align-content: center;
+    align-items:center; 
+    display: inline;
 }
 
+footer a {float:left; margin: 0px 0px 15px 15px;       
+}
+footer {float:inherit;
+        padding-left:40rem;
+}
+        
 
 
-  
-  
+
