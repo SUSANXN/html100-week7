@@ -1,12 +1,11 @@
 *{box-sizing: border-box}
 
 header { float:none;
-         padding-top:2rem;
-         padding-right:auto;
+         padding-top:1rem;
+         padding-right:1rem;;
          padding-bottom:1rem;
-         padding-left:auto;
-         height:100px;
-         width:auto; 
+         padding-left:1rem;
+         height:100px; 
          clear: none; 
          background-color:white;
 }
@@ -24,9 +23,9 @@ nav { float:none;
       padding-top: 1rem; 
       padding-right: 1rem; 
       padding-bottom:2rem; 
-      padding-left:auto;
+      padding-left:1rem;
       margin-top:auto;
-      margin-right:3px;
+      margin-right:1px;
       margin-bottom:auto;
       margin-left:5px; 
       color:white; 
@@ -36,8 +35,6 @@ nav { float:none;
 nav li {float:left; list-style-type: none; 
         padding-left: 5rem;
         padding-right: 3rem;
-        padding-bottom: auto;
-        padding-top: auto; 
         text-align: center;
         font-size: 15pt;
 }     
@@ -47,11 +44,11 @@ nav a {color:white;
        }
       
 article { 
-          padding-right: 3rem; 
-          padding-top:5rem;
-          margin-bottom: 3rem;
-          margin-top:2.5rem;
-          height: 505px;
+          padding-right: 2rem; 
+          padding-top:2rem;
+          margin-bottom: 2rem;
+          margin-top:2rem;
+          height: 500px;
           font-family: "arial", sans-serif;
           background:#F2F2F2;
           color:gray;
@@ -62,10 +59,12 @@ article p {
   padding-bottom: 2em; 
   padding-right:7rem;
   padding-left:7rem;
-  margin-right:3rem;
-  margin-left:3rem;
+  border-right:3rem;
+  border-left:3rem;
+  margin-right:4rem;
+  margin-left:4rem;
   text-align:center;
-  font-size: 13px  
+  font-size: 14px;
 }
 
 article img {padding-left:19rem; }
@@ -76,7 +75,7 @@ section {
          padding-right:2rem;
          padding-top:2rem;
          padding-left:3rem;
-         margin-top:.6em;
+         margin-top:8px;
          width:15%;
          height: 500px;
          background-color: #EFBEFF; 
